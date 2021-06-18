@@ -1,0 +1,127 @@
+body{
+    background-color: grey;
+    margin: 0;
+}
+.container{
+    width: 780px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0px 9px 13px 5px;
+}
+.header{
+    padding: 45px 0 20px 40px;
+}
+.menu{
+    background-color: skyblue;
+    padding: 6px 0 6px 40px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Arial Narrow", "Myriad Pro", "Hervetica";
+}
+.menu a:hover{
+    color: green;
+}
+aside{
+    float: left;
+    width: 150px;
+    padding: 40px 0 0 40px;
+}
+h1{
+    margin: 0;
+    color: red;
+    font-size: 30px;
+    font-family: "Arial Narrow", "Myriad Pro";
+    font-weight: normal;
+}
+.main{
+    margin: 0 0 0 180px;
+    padding: 45px 30px 30px 0;
+    color: purple;
+    font-family: "Georgia";
+    font-size: 15px;
+    line-height: 18px;
+    text-emphasis: justify;
+}
+.main a:hover{
+    color: red;
+
+}
+footer{
+    padding: 6px 40px 6px 40px;
+    color: black;
+    background-color: yellow;
+    font-family: "Lucida Sans Unicode";
+    font-size: 10px;
+    text-decoration: right;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+.link-title{
+    text-decoration: none;
+    font-size: 24px;
+    color: orange;
+
+}
+.seperater{
+    color: white;
+    font-size: 11px;
+}
+#home-page{
+    width: 100%;
+}
+
+/***About page***/
+#about-page #home-page img{
+    width: 70%;
+    float: left;
+    margin-bottom: 20px;
+}
+#about-page #profile-info{
+    float: right;
+    width: 20%;
+    margin: 5px;
+}
+#about-page .description{
+    clear: both;
+}
+
+/***Contact Page***/
+#contact #form{
+    width: 550px;
+    margin: 0 auto;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0px 9px 13px 5px;
+    border-radius: 5px;
+}
+.main h1{
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px 10px 10px 10px;
+    color: blue;
+    font-weight: 60px;
+    font-size: 30px;
+}
+#form #names{
+    width: 100%;
+    border-radius: 5px;
+    height: 20px;
+    background-color: grey;
+    color: white;
+}
+#contact #form #message{
+    width: 100%;
+    border-radius: 5px;
+    background-color: grey;
+    color: white;
+
+}
+#contact #form #submit{
+    height: 30px;
+    background: red;
+    width: 100%;
+}
